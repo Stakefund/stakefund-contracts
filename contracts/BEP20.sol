@@ -349,8 +349,8 @@ contract BEP20 is Context, IBEP20, Ownable {
   string private _name;
 
   constructor() public {
-    _name = 'test123';
-    _symbol = 'test123';
+    _name = 'Stakefund';
+    _symbol = 'STFU';
     _decimals = 18;
     _totalSupply = 100000000000000000000000000;
     _balances[msg.sender] = _totalSupply;
